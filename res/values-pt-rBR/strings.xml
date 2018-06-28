@@ -111,6 +111,11 @@
   <string name="hide_lockscreen_alarm_title">Texto de alarme</string>
   <string name="hide_lockscreen_alarm_summary">Altere a visibilidade do texto do alarme embaixo do widget de relógio</string>
 
+  <!-- Lockscreen secure -->
+  <string name="lockscreen_misc_selection_title">Configurações de segurança</string>
+  <string name="lockscreen_misc_selection_summary">Configurações de desbloqueio de tela</string>
+  <string name="secure_category_settings">Segurança</string>
+
   <!-- Recents panel settings -->
   <string name="recents_default_category">Recentes</string>
   <string name="show_clear_all_recents_button_title">Botão circular</string>
@@ -157,6 +162,7 @@
   <string name="font_picker_progress">Aplicando nova fonte\u2026</string>
 
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_title">Tonalidades com wallpaper</string>
   <string name="misc_settings_summary">Opções diversas para customização</string>
   <string name="wallpaper_tint_power_menu">Tonalidade de fundo do menu de energia</string>
   <string name="wallpaper_tint_recents">Tonalidade de fundo do recentes</string>
@@ -191,6 +197,19 @@
   <string name="battery_percentage_beside">Mostrar ao lado do ícone da bateria</string>
   <string name="battery_percentage_inside">Mostrar dentro do ícone da bateria</string>
 
+  <!-- Features Settings - Notifications -->
+  <string name="light_category">LED</string>
+  <string name="battery_light_settings">Luz de bateria carregando</string>
+  <string name="battery_light_settings_summary">Habilitar e configurar como o LED deve funcionar</string>
+  <string name="battery_light_enable">Luz de bateria</string>
+  <string name="battery_light_allow_on_dnd_title">Luz de bateria em modo não perturbe</string>
+  <string name="battery_light_low_blinking_title">Luz intermitente em bateria fraca</string>
+  <string name="battery_light_cat">Cor de luz da bateria carregando</string>
+  <string name="battery_light_low_color">Bateria baixa</string>
+  <string name="battery_light_medium_color">Bateria média</string>
+  <string name="battery_light_full_color">Bateria quase completa</string>
+  <string name="battery_light_reallyfull_color">Bateria completa</string>
+
   <!-- Toxyc statusbar logo -->
   <string name="status_bar_logo_title">Toxyc logo</string>
   <string name="status_bar_logo_summary">Ativar para mostrar o logotipo da Toxyc na barra de status</string>
@@ -215,6 +234,12 @@
   <string name="navigation_bar_menu_arrow_keys_title">Setas na navbar enquanto digita</string>
   <string name="navigation_bar_menu_arrow_keys_summary">Mostrar botões virtuais na navbar enquanto digita</string>
 
+  <!-- Fingerprint vibrate -->
+  <string name="hardware_otherdevices">Sensores e mais</string>
+  <string name="fprint_category">Sensor biométrico</string>
+  <string name="fprint_sucess_vib_title">Vibração na autenticação</string>
+  <string name="fprint_sucess_vib_summary">Vibrar quando autenticar sua digital</string>
+
   <!-- Volume category -->
   <string name="volume_category">Volume Rocker</string>
   <!-- Volume button orientation based on current rotation -->
@@ -234,8 +259,8 @@
   <string name="volume_answer_call_summary">Atender a chamada, quando pressionado os botões de volume</string>
 
   <!-- HW Keys customization -->
-    <string name="button_settings_title">Botões</string>
-    <string name="button_settings_title_summary">Executar ações de botões personalizadas</string>
+  <string name="button_settings_title">Botões</string>
+  <string name="button_settings_title_summary">Executar ações de botões personalizadas</string>
   <string name="picker_activities">Atividades</string>
   <string name="select_custom_app_title">Escolher aplicativo personalizado</string>
   <string name="select_custom_activity_title">Escolher atividade personalizada</string>
@@ -264,6 +289,7 @@
   <string name="hardware_keys_utouch_right_swipe">Deslizar para a direita</string>
 
   <!-- P animations -->
+  <string name="animation_style_default">Estilo de Animação</string>
   <string name="system_default_animation_title">Estilo de animação Android P</string>
   <string name="system_default_animation_summary">Ativar animações \"Padrão\" Android P</string>
 
@@ -279,4 +305,13 @@
   <string name="face_auto_unlock_title">Desbloqueio facial</string>
   <string name="face_auto_unlock_summary">Dispensar tela de bloqueio rapidamente com desbloqueio facial</string>
 
+  <!-- Button backlight -->
+  <string name="button_backlight_options_category">Opções de luz de fundo</string>
+  <string name="button_backlight_enable_title">Permitir luz de fundo dos botões</string>
+  <string name="button_link_brightness">Ajustar coforme o brilho da tela</string>
+  <string name="button_link_brightness_summary">A luz de fundo dos botões irá acompanhar o brilho da tela</string>
+  <string name="button_manual_brightness">Nível de brilho</string>
+  <string name="button_timeout_title">Tempo de espera da luz de fundo</string>
+  <string name="button_backlight_on_touch_only_title">Luz de fundo ao toque</string>
+  <string name="button_backlight_on_touch_only_summary">A luz de fundo irá aparecer ao toque dos botões ao invés de o tempo todo. O tempo de espera ainda influência nesse recurso.</string>
 </resources>
